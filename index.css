@@ -1,0 +1,93 @@
+
+.nav{
+height: 80px;
+width: 1499px;
+background-color:#fff;
+font-family: 'Playball', cursive;
+font-size: 90%;
+color: white;
+text-align: center;
+position: relative;
+left: 8px;
+
+}
+.nav ul li a{
+    text-decoration:none;
+    color: grey;
+   
+    
+}
+.nav ul li{
+    display:inline-block;
+    justify-content:space-evenly;
+    font-size: x-large;
+    width: 110px;
+    margin:25px ;
+    padding:5px ;
+    text-align: center;
+   
+}
+.active,.nav ul li:hover{
+background-color: #eb2632;
+border-radius: 0px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+.card{
+  margin-left: 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.card img{
+  height: 50%;
+  border-radius:1000%;
+ 
+  
+}
+.main card{
+  height: 200px;
+  border: 2px soloid black;
+  margin-left: 50px;
+  background-color: gray;
+}
+.text-center{
+  position: relative;
+ 
+  padding-top: 20px;
+  text-align: center;
+  color: red;
+}
+
+
+.meal{
+  height:500px ;
+  width:1500px ;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  color: red;
+  display: flex;
+}
+.card4{
+  background:url("images/bb.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-left: 1%;
+}
+<!-- border image-->
+.card4 img{
+  margin-left:67% ;
+  margin-top: 0%;
+}
+.row4{
+  height: 50px;
+}
+.rownew{
+  justify-content: space-between;
+}
+.card.card1 a:hover{
+background-color: red;
+}
